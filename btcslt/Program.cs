@@ -241,5 +241,31 @@ namespace BaitapCSLT
             int diff = Math.Abs(x - y);
             Console.WriteLine("Result: " + (x > y ? diff * 2 : diff));
         }
+        
+                static void BT21()
+        {
+            Console.WriteLine("--- BT21: Check for 20 or Sum Equals 20 ---");
+            Console.Write("Input two numbers: ");
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Result: " + (x == 20 || y == 20 || x + y == 20));
+        }
+
+        static void BT22()
+        {
+            Console.WriteLine("--- BT22: Check if a Number is Within 20 of 100 or 200 ---");
+            Console.Write("Input a number: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Result: " + (Math.Abs(x - 100) <= 20 || Math.Abs(x - 200) <= 20));
+        }
+
+        static void BT23()
+        {
+            Console.WriteLine("--- BT23: 23. Convert String to Lowercase ---");
+            Console.Write("Input a string: ");
+            string s = Console.ReadLine();
+            Console.WriteLine("Result: " + s.ToLower());
+        }
     }
 }
+ 
