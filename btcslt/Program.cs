@@ -30,6 +30,9 @@ namespace BaitapCSLT
             BT18();
             BT19();
             BT20();
+            BT21();
+            BT22();
+            BT23();
 
             Console.ReadKey();
         }
@@ -242,7 +245,7 @@ namespace BaitapCSLT
             Console.WriteLine("Result: " + (x > y ? diff * 2 : diff));
         }
         
-                static void BT21()
+        static void BT21()
         {
             Console.WriteLine("--- BT21: Check for 20 or Sum Equals 20 ---");
             Console.Write("Input two numbers: ");
